@@ -1,9 +1,10 @@
 body {
 
-	background-image: url("http://hdwallpaperia.com/wp-content/uploads/2013/11/Game-Backgrounds-Wallpaper.jpg");
-    background-size: cover;
+	background-image: url("img/background.png");
     background-position: center center;
 	font-family: monospace;
+    background-size:76%;
+    margin-top:-10px;
 
 }
 
@@ -35,12 +36,21 @@ body {
     color: #abc;
   }
 
+  #character {
+    background-image: url("img/maincharacter.png");
+    background-size:100%;
+    height:500px;
+    width:500px;
+    position:absolute;
+    margin-top:530px;
+  }
+
 
 
 /*Stuff below governs the Explore screen*/
 
 #exploreBody {
-	background-image: url("img/exploreHome1.jpg");
+	background-image: url("img/background.png");
 	background-position: bottom center;
 
 }
