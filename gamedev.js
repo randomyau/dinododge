@@ -64,7 +64,7 @@ var scotty = $("#character");
 
       }
     });
-  }, 200); //this is how often it checks for a collision
+  }, 100); //this is how often it checks for a collision
 
 
   $("#pointsystem").html(points);
